@@ -1,0 +1,34 @@
+{
+    "name": "leaditin/table",
+    "description": "Table definition library for various table rendering engines.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "table", "table definition", "excel", "pdf", "leaditin"
+    ],
+    "authors": [
+        {
+            "name": "Igor Vuckovic",
+            "email": "igor@vuckovic.biz"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Leaditin\\Table\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\Leaditin\\Table\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit --colors=always"
+    }
+}
